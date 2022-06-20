@@ -1,0 +1,40 @@
+*{box-sizing: border-box;padding: 0;margin: 0;list-style-type: none;}
+body{height: 3000px;}
+
+.menu{padding: 30px;background-color: aqua;}
+.menu ul li{float: right;padding:0px 10px;}
+.sticky{position: fixed;top: 0px;width: 100%;}
+
+.btn{height: 30px;width: 30px;border-radius: 50%;}
+.red{background-color: red;border: 1px solid white;}
+.blue{background-color: blue;border: 1px solid white;}
+.black{background-color: black;border: 1px solid white;}
+
+.tem{margin: 0 auto; border: 1px solid black;width: 100%;height: 94vh;display: flex;flex-direction: column;justify-content: center;}
+.tem h3{margin:5px auto;text-align: center;font-size: 30px; }
+.input_con{text-align: center;display:flex; flex-direction: row;align-content: center;justify-content: center;}
+.input__div{display: flex; flex-direction: column;margin: 20px;}
+#cel, #fe{height: 30px;}
+.wordCounter{text-align: center; margin-top: 50px;}
+#textarea{height: 100px;width: 300px;resize: none;}
+.menu ul li{float: right;}
+.head{background-color: rgb(70, 106, 206);padding: 10px 0;
+color: beige;}
+.wordCounter p{background-color:rgb(70, 106, 206) ; color: beige; padding: 10px 0 ;margin-top: -4px; ;}
+.form{margin:20px auto;text-align: center; border: 1px solid rgb(70, 106, 206); width: 300px; height: 250px;display: flex;;flex-direction: column;justify-content: center;}
+.submit,.username,.pass{margin: 10px; width: 200px;height: 30px;}
+.submit{background-color: rgb(70, 106, 206);border: 0px;}
+.er{color: red;margin-left: 42px;margin-top: -8px;font-size: 14px;}
+#slides{position: relative;}
+.imageslider{position: relative;}
+#pre{position: absolute;top: 50%;left:5% ;border: 1px solid rgba(70, 65, 65, 0.438);border-radius: 50%;background-color: rgba(70, 65, 65, 0.438);height: 25px;width: 25px;text-align: center;color: aliceblue;cursor: pointer;}
+#next{position: absolute;top: 50%;right:5% ;border: 1px solid rgba(70, 65, 65, 0.438);border-radius: 50%;background-color:rgba(70, 65, 65, 0.438);height: 25px;width: 25px;text-align: center;;color: aliceblue;cursor: pointer;}
+.caption{position: absolute;bottom: 10%;background-color: rgba(70, 65, 65, 0.438); padding: 5px 0;width: 100%;text-align: center;}
+.slide{display: none;}
+.slide img {width: 100%}
+.stopwatch{text-align: center;margin-top: 50px;}
+.watchhead{font-size: 20px;padding: 10px;}
+.stopwatch p{font-size: 55px; }
+.start{padding: 5px 15px;border-radius: 12px;color: aliceblue;background-color: green;}
+.stop{padding: 5px 15px;border-radius: 12px;color: aliceblue;background-color: red;}
+.reset{padding: 5px 15px;border-radius: 12px;color: aliceblue;background-color: orangered;}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="tem">
+        <h3>Temperature Converter</h3>
+        <div class="input_con">
+        <div class="input__div">
+            <label for="cel">Celsius</label>
+            <input type="text" value="0" id="cel">
+        </div>
+        <div class="input__div">
+            <label for="fe">Fahrenheit</label>
+            <input type="text" value="32" id="fe">
+        </div>
+        </div>
+    </div>
+    <div class="menu" id="menu">
+        <nav>
+            <ul>
+                <li>menu</li>
+                <li>menu</li>
+                <li>menu</li>
+                <li>menu</li>
+            </ul>
+        </nav>
+        <div class="color_changer">
+            <button id="red" class="btn red"> </button>
+            <button id="blue" class="btn blue"> </button>
+            <button id="black" class="btn black"> </button>
+        </div>
+    </div>
+    <div class="wordCounter">
+        <Div class="head"><h4>Word Counter</h4></Div>
+       <div> <textarea id="textarea" cols="30" rows="10"></textarea></div>
+        <p><span id="wd">0</span><span id="wd-c"> Word</span><span id="ch"> 0 </span><span id="ch-c"> Caracter</span></p>
+    </div>
+    <div class="form">
+        <div><h4>Form validation
+        </h4></div>
+        
+        <form onsubmit="return test()" action="" id="form1">
+            <input type="text" placeholder="Username" id="username" class="username">
+            <p id="userer" class="er"></p>
+            <input type="password" placeholder="Password" id="pass" class="pass">
+            <p id="passer" class="er"></p>
+            <input type="submit" class="submit">
+        </form>
+        
+    </div>
+    <div class="imageslider">
+        <div id="slides">
+            <div class="slide" id="slide1">
+                <img src="1.jpg" alt="">
+                <p class="caption">Image Caption1</p>
+            </div>
+            <div class="slide" id="slide2">
+                <img src="2.jpg" alt="">
+                <p class="caption">Image Caption2</p>
+            </div>
+            <div class="slide" id="slide3">
+                <img src="3.jpg" alt="">
+                <p class="caption">Image Caption3</p>
+            </div>
+            <div class="slide" id="slide4">
+                <img src="4.jpg" alt="">
+                <p class="caption">Image Caption4</p>
+            </div>
+        </div>
+        <p id="pre" onclick="controller(-1)">&#10094</p> 
+        <p id="next"  onclick="controller(1)">&#10095</p>
+       
+    </div>
+    <div class="stopwatch" id="stopwatch">
+        <h4 class="watchhead">Stop Watch</h4>
+        <p>
+            <span class="hour" id="hour">00</span>:<span class="min" id="min">00</span>:<span class="sec" id="sec">00</span>:<span class="minsec" id="minsec">00</span>
+        </p>
+        <button class="start" id="start" onclick="start()">Start</button>
+        <button class="stop" id="stop" onclick="stop()">Stop</button>
+        <button class="reset" id="reset"onclick="reset()">Reset</button>
+    </div>
+</body>
+<script>
+  
+</script>
+<script src="js.js"></script>
+</html>
